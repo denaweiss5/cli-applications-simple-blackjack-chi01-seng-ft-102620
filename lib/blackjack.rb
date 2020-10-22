@@ -31,6 +31,7 @@ end
 
 def hit? (number)
   display_card_total(number)
+  prompt_user
   if get_user_input == 'h'
     puts deal_card
     card_total = number += 1
