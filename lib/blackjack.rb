@@ -29,7 +29,7 @@ def initial_round
   return sum_cards
 end
 
-def hit? (number)
+def hit? (players_card_total)
   display_card_total(number)
   prompt_user
   get_user_input
