@@ -31,6 +31,7 @@ def initial_round
 end
 
 def hit? (number)
+  display_card_total
   prompt_user
   get_user_input
   if user_input == 'h'
