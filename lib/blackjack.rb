@@ -32,12 +32,14 @@ end
 def hit? (number)
   display_card_total(number)
   prompt_user
-  get_user_input
+  if get_user_input == 's'
+  end
   if get_user_input == 'h'
     puts deal_card
-    card_total = number += 1
-end
-if get_user_input == 's'
+    players_card_total = number + deal_card
+  else invalid_command
+    prompt_user
+  end
 end
 card_total
 end
