@@ -29,7 +29,7 @@ def initial_round
   return sum_cards
 end
 
-def hit? (players_card_total)
+def hit? (number)
   display_card_total(number)
   prompt_user
   get_user_input
@@ -41,7 +41,7 @@ def hit? (players_card_total)
   else invalid_command
     prompt_user
   end
-players_card_total
+number
 end
 
 def invalid_command
