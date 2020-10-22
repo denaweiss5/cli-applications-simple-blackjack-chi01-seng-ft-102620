@@ -40,9 +40,7 @@ def hit? (number)
   else invalid_command
     prompt_user
   end
-end
 card_total
-end
 end
 
 def invalid_command
